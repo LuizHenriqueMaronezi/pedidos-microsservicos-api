@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pedidos-microsservicos-api
+
+springdoc:
+  swagger-ui:
+    path: /api-docs.html
+  api-docs:
+    path: /api-docs
+  packagesToScan: io.github.luizhenriquemaronezi.pedidos_microsservicos_api.controller
